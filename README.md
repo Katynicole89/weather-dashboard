@@ -1,5 +1,6 @@
 # Weather-Dashboard
 
+![Screenshot]( ADD IMAGE HERE )
 
 ## PROJECT DESCRIPTION:
 A simple weather dashboard to view weather in certain searchable cities
@@ -9,6 +10,7 @@ A simple weather dashboard to view weather in certain searchable cities
 * CSS3
 * JQuery
 * Bootstrap
+* Openweather One Call API
 
 ## ACCEPTANCE CRITERIA 
 GIVEN a weather dashboard with form inputs
@@ -23,12 +25,9 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
-## SCREENSHOT:
-![image](https://github.com/Katynicole89/WorkDayScheduler/blob/develop/assets/images/workday.png)
-
 
 ## DEPLOYED SITE:
-https://katynicole89.github.io/WorkDayScheduler/
+https://katynicole89.github.io/weather-dashboard/
 
 ## LINK TO MAIN GITHUB
 https://github.com/Katynicole89
