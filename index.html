@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
 
-    <!--Bootstrap-->
+    <!--Bootstrap/FontAwesome-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <!--Custom Css-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -17,14 +18,14 @@
        <div id="title" class="jumbotron-fluid font-weight-bold text-white text-center">
            <h1 class="display-4 ">Weather Dashboard</h1>
          </div>
-       </div>
+       
 
-    <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <h3>Search For a City:</h3>
                 <input id="cityInput" type="text" class="form-control" placeholder="Austin">
-                <button id="getCityWeather" class="btn btn-primary btn-large w-100 mt-1 mb-3" type="submit">Search</button>
+                <button id="getWeather" class="btn btn-primary btn-large w-100 mt-1 mb-3" type="submit">Search <i class="fas fa-search"></i></button>
+                
 
             <div class="card">
                 <ul id="citylist" class="list-group">
@@ -34,8 +35,37 @@
                 </ul>
             </div>
             </div>
-        </div>
 
+            <div id="" class="col-8">
+                <div class="row mr-0">
+                    <div class="col-12 border border-dark m-2 rounded">
+                        <div class="row">
+                            <span id="cityName" class="fs-1 fw-bold"> Austin
+                                 <span id="cityDate" class="fs-5 fw-bold">8/30/20</span>
+                            </span>
+                            
+                            <span class="fs-6"> Temp: <span id="cityTemp" class="fs-6">  </span></span>
+                            <span class="fs-6"> Wind: <span id="cityWind" class="fs-6">  </span></span>
+                            <span class="fs-6"> Humidity: <span id="cityHumidity" class="fs-6">  </span></span>
+                            <span class="fs-6"> UV Index: <span id="cityUV" class="fs-6">  </span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    
+
+            <div class="col-sm-12 ms-4" id ="forecastMain">
+                <h3 class="fw-bold">5-Day Forecast:</h3>
+                <div class="row">
+                    <div class="col-sm-2 bg-primary text-white p-1 mt-3 rounded" >
+                        <p id="fDate">Date</p>
+                        <p id="fIcon">Stuff</p>
+                        <p>Temp:<span id="fTemp"></span></p>
+                        <p>Wind:<span id="fWind"></span></p>
+                    </div>
+    
+    
     </div>
 
 
