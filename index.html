@@ -30,15 +30,20 @@
                 
                 <!--Recent cities card-->
                 <div class="card bg-white text-dark" id="recentCard">
-                    <h4 class="card-header text-uppercase bg-white text-dark">Recent Cities:</h4>
                     <div class="card-body" id="recentCities">
-                        <!---Recent searched cities go here-->
-                      </div>
-                </div>
-            </div> -->
-           
 
-            <div id="cityMain" class="col-8">
+                        <!---Recent searched cities go here-->
+
+                            <ul id="citylist" class="list-group">
+                            <button id="searchedCities" class="btn bg-secondary text-white btn-large mt-2" type="submit">Austin</button>
+                            </ul>
+                       </div>
+                </div>
+                </div>
+
+        <!----Current Search City Info-->
+
+            <div id="" class="col-8">
                 <div class="row mr-0">
                     <div class="col-12 border border-dark m-2 rounded">
                         <div class="row">
@@ -52,24 +57,51 @@
                             <span class="fs-6"> UV Index: <span id="cityUV" class="fs-6">  </span></span>
                         </div>
                     </div>
+                    
+                <!-- Five day forecast information -->
+                <div id="5title">
+                    <span class="fw-bold fs-4"> 5 Day Forecast: </span>
                 </div>
-            </div>
 
-    
-
-            <div class="col-sm-12 ms-4" id ="forecastMain">
-                <h3 class="fw-bold">5-Day Forecast:</h3>
-                <div class="row">
-                    <div class="col-sm-2 bg-primary text-white p-1 mt-3 rounded" >
-                        <p id="fDate">Date</p>
-                        <p id="fIcon">Stuff</p>
-                        <p>Temp:<span id="fTemp"></span></p>
-                        <p>Wind:<span id="fWind"></span></p>
+                <div id="forecastcontaine" id="forecastcard" style="max-width: 9rem;">
+                    <div class="card-body">
+                        <!--Inside info - Date -->
+                      <h5 id="fdate1" class="card-title"> </h5>
+                        <span class="card-text">
+                        <!--Inside Info - Icon and info-->
+                            <img id="ficon1" class="mb-4"></img><br>
+                            <span id="forecastTemp">Temp:<span id="ftemp1"></span> </span> <br>
+                            <span id="forecastWind">Wind:<span id="wtemp1"></span> </span> <br>
+                            <span id="forecastHumidity">Humidity:<span id="fhumid1"></span> </span>
+                        </span>
                     </div>
-    
-                </div>
-    </div>
+                  </div>
 
+                   <!--Day 2 Forecast Info-->
+                <div class="card text-white p-2" id="forecastcard" style="max-width: 9rem;">
+                    <div class="card-body">
+                        <!--Inside info - Date -->
+                      <h5 id="fdate1" class="card-title"> </h5>
+                        <span class="card-text">
+                        <!--Inside Info - Icon and info-->
+                            <img id="ficon1" class="mb-4"></img><br>
+                            <span id="forecastTemp">Temp:<span id="ftemp1"></span> </span> <br>
+                            <span id="forecastWind">Wind:<span id="wtemp1"></span> </span> <br>
+                            <span id="forecastHumidity">Humidity:<span id="fhumid1"></span> </span>
+                        </span>
+                    </div>
+                  </div>
+
+                  </div>
+                </div>
+            </div> 
+        </div>
+  
+        
+</div>
+</div>
+
+Testing 
 
 
 

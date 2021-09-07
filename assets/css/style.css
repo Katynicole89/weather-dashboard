@@ -5,3 +5,7 @@
 #hidden {
   display: none;
 }
+
+#forecastcard {
+  background-color: rgb(9, 41, 102);
+}
