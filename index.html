@@ -25,7 +25,7 @@
 
             <!---Search for a city/button-->
                 <h3>Search For a City:</h3>
-                <input id="cityInput" type="text" class="form-control" placeholder="Austin">
+                <input id="cityInput" type="text" class="form-control" placeholder="Search Here">
                 <button id="getWeather" class="btn btn-primary btn-large w-100 mt-1 mb-3" type="submit">Search <i class="fas fa-search"></i></button>
                 
                 <!--Recent cities card-->
@@ -47,14 +47,15 @@
                 <div class="row">
                     <div class="col-12 border border-dark m-2 rounded">
                         <div class="row">
-                            <span id="cityName" class="fs-1 fw-bold"> Austin
-                                 <span id="cityDate" class="fs-5 fw-bold">8/30/20</span>
-                            </span>
+                            <span id="cityName" class="fs-1 fw-bold"></span>
+                            <img class="float-right" id="wIcon" src="">
+
+                            <span id="cityDate" class="fs-5 fw-bold"> </span>
+                            <span id="cityDescription" class="fs-6">  </span>
+                            <span id="cityTemp" class="fs-6">  </span>
+                            <span id="cityWind" class="fs-6">  </span>
+                            <span id="cityHumidity" class="fs-6">  </span>
                             
-                            <span class="fs-6"> Temp: <span id="cityTemp" class="fs-6">  </span></span>
-                            <span class="fs-6"> Wind: <span id="cityWind" class="fs-6">  </span></span>
-                            <span class="fs-6"> Humidity: <span id="cityHumidity" class="fs-6">  </span></span>
-                            <span class="fs-6"> UV Index: <span id="cityUV" class="fs-6">  </span></span>
                         </div>
                     </div>
                     
