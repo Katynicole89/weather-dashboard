@@ -1,15 +1,16 @@
 # Weather-Dashboard
 
-![Screenshot]( ADD IMAGE HERE )
+![Screenshot](../assets/images/Screenshot.jpg)
 
 ## PROJECT DESCRIPTION:
-A simple weather dashboard to view weather in certain searchable cities
+Weather dashboard that gives user the ability to search for a certain city that then returns todays forecast as well as a 5 day forecast. 
 
 ## BUILT WITH:
 * HTML5
 * CSS3
 * JQuery
 * Bootstrap
+* Moment
 * Openweather One Call API
 
 ## ACCEPTANCE CRITERIA 
