@@ -62,7 +62,7 @@ $("#getWeather").on("click", function (event) {
 
     let cityNameID = response.name
 
-    let apiCall2 = "https://api.openweathermap.org/data/2.5/forecast?q=" + cityNameID + "&appid=" + apiKey;
+    let apiCall2 = "https://api.openweathermap.org/data/2.5/forecast?q=" + cityNameID + "&appid=" + apiKey + '&units=imperial';
 
     $.ajax({
         url: apiCall2, 
@@ -72,6 +72,10 @@ $("#getWeather").on("click", function (event) {
         console.log(apiCall2);
         console.log(response);
     
+        let citydateEL = $("#fdate1").text(response.list[0].dt_txt);
+        let citytempEL = $("#ftemp1").text('Temp:' + response.list[0].main.temp + 'F');
+        let citywindEL = $("#wtemp1").text('Wind:' + response.list[0].wind.speed + 'MPH');
+        let cityHumidEL = $("#fhumid1").text('Humidity' + response.list[0].main.humidity);
     
     })
 
