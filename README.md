@@ -1,6 +1,6 @@
 # Weather-Dashboard
 
-![Screenshot] (../assets/images/Screenshot.jpg)
+![Screenshot](Screenshot.jpg)
 
 ## PROJECT DESCRIPTION:
 Weather dashboard that gives user the ability to search for a certain city that then returns todays forecast as well as a 5 day forecast. 
